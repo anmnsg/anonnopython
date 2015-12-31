@@ -20,6 +20,9 @@ class MainHandler(webapp2.RequestHandler):
     def get(self):
         self.response.write('<H1>Hello world!</H1>')
         self.response.write("<p>I'm Arnon Manosagoon</p>")
+        self.response.write("<p>I'm Arnon Manosagoon</p>")
+        self.response.write("<p>I'm Arnon Manosagoon</p>")
+        self.response.write("<p>I'm Arnon Manosagoon</p>")
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
